@@ -15,13 +15,22 @@ It's an analysis tool, not a roleplay. Claude won't pretend to be Elon.
 
 ## Install
 
-### Claude.ai / Claude desktop app
-1. Download this repo as a ZIP (green **Code** button → **Download ZIP**), or grab `wwed.zip` from the Releases page.
-2. In Claude, go to **Settings → Capabilities → Skills** and upload the `wwed` folder as a ZIP.
-3. Make sure the skill is turned on.
+### Claude directory
+Find **WWED** in Claude under **Customize → Skills/Plugins** and click **Add** (once the listing is approved).
+
+### Manual (Claude.ai / desktop app)
+1. Download this repo (green **Code** button → **Download ZIP**).
+2. Zip the `skills/wwed` folder and upload it in **Customize → Skills → Add**.
 
 ### Claude Code
-Copy the `wwed` folder into `~/.claude/skills/` (or your project's `.claude/skills/`).
+```
+/plugin install wwed --marketplace liamgg707-debug/wwed
+```
+Or copy `skills/wwed` into `~/.claude/skills/`.
+
+## What it sends or runs
+
+Nothing. This plugin is a single instruction file (`skills/wwed/SKILL.md`). It runs no code, calls no servers, and stores no data.
 
 ## Use it
 

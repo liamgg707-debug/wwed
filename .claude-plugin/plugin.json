@@ -1,0 +1,11 @@
+{
+  "name": "wwed",
+  "displayName": "WWED: Limiting Factor Finder",
+  "description": "Find the one limiting factor slowing any business or project, from first principles, and a step-by-step plan to clear it.",
+  "version": "1.0.0",
+  "author": { "name": "Liam Galbraith" },
+  "license": "MIT",
+  "homepage": "https://github.com/liamgg707-debug/wwed",
+  "repository": "https://github.com/liamgg707-debug/wwed",
+  "keywords": ["bottleneck", "first-principles", "operations", "strategy", "productivity"]
+}
